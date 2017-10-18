@@ -1,0 +1,20 @@
+rename-partial-files = "true"
+umask = "2"
+
+[download]
+dir = "/var/lib/transmission-daemon/downloads"
+queue-size = 10
+
+[incomplete]
+dir = "/var/lib/transmission-daemon/incomplete"
+dir-enabled = "true"
+
+[rpc]
+authentication-required = "false"
+whitelist-enabled = "false"
+
+[watch]
+dir = "/var/lib/transmission-daemon/watch"
+dir-enabled = "true"
+
+port = 9091
